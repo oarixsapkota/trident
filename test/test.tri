@@ -1,0 +1,9 @@
+// Import "std" as std
+const std = @import("std");
+
+// This function can return a
+// error union with i32
+pub func main () !i32 {
+    try std.io.print("Hello, World!");
+    return 0;
+}
