@@ -1,6 +1,6 @@
 CMAKE = cmake
-BUILD_DIR_DEBUG = build/debug
-BUILD_DIR_RELEASE = build/release
+BUILD_DIR_DEBUG = debug
+BUILD_DIR_RELEASE = release
 
 .PHONY: all debug release clean test-debug test-release format
 
